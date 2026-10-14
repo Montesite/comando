@@ -199,12 +199,12 @@ const ServicesSection = () => {
             com foco em qualidade, eficiência e atendimento humanizado.
           </p>
         </div>
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-10">
+        <div className="flex flex-wrap justify-center gap-6 mb-10">
           {services.map((service, index) => (
             <div
               key={index}
               className={cn(
-                "service-card p-6 rounded-xl transition-all duration-300",
+                "service-card w-full md:w-[calc(50%-0.75rem)] lg:w-[calc(33.333%-1rem)] p-6 rounded-xl transition-all duration-300",
                 "bg-white border border-primary-100 hover:border-primary-300",
                 "hover:shadow-md hover:-translate-y-1 flex flex-col items-start opacity-0"
               )}

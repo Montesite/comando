@@ -36,7 +36,7 @@ const Header = () => {
   }, []);
   useEffect(() => {
     setIsMenuOpen(false);
-  }, [location.pathname]);
+  }, [location.key]);
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
