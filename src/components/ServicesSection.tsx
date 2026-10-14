@@ -227,7 +227,7 @@ const ServicesSection = () => {
             </div>
           ))}
         </div>
-        <div className="text-left mt-8">
+        <div className="text-center mt-8">
           <Link to="/services">
             <Button variant="outline" size="lg" className="rounded-full">
               Ver todos os serviços
