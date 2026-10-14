@@ -102,7 +102,7 @@ const Footer = () => {
         
         <div className="border-t border-gray-200 py-4 md:py-6 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-600 text-xs md:text-sm mb-4 md:mb-0">
-            &copy; {new Date().getFullYear()} Comando Contabilidade. Todos os direitos reservados.
+            &copy; {new Date().getFullYear()} Comando Contabilidade. Todos os direitos reservados. CNPJ: 60.794.087/0001-48
           </p>
           <div className="flex items-center">
             <button 
